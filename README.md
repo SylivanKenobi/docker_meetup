@@ -5,11 +5,23 @@
 * [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 * [docker-compose](https://docs.docker.com/compose/install/)
 * git
+* ```$ git clone https://github.com/Thunderguts13/docker_meetup```
+
+## Inhalt
+* Was ist Docker
+* Was sind Container
+* Docker Aufbau
+* Dockerfile
+* Übung 1
+* Docker-compose
+* Übung 2
+* Security
 
 ## Übung 1
 
-[Docker-cli Dokumentation](https://docs.docker.com/engine/reference/commandline/cli/)
+Docker CLI kennenlernen
 
+[Docker-cli Dokumentation](https://docs.docker.com/engine/reference/commandline/cli/)
 
 1. ``` $ docker run -it --name meetup thunderguts13/docker_meet_up:latest ```
 1. ``` $ docker ps ```
@@ -18,3 +30,20 @@
 1. ``` $ docker kill meetup ```
 1. ``` $ docker run -it --name meetup thunderguts13/docker_meet_up:latest ```
 1. ``` $ docker ps -a ```
+
+## Übung 2
+
+Dockerfile für Ruby Script schreiben.
+[Dockerfile Dokumentation](https://docs.docker.com/engine/reference/builder/)
+
+
+
+
+#### Quellen
+
+* https://docs.docker.com
+* https://wikipedia.org
+* https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
+* https://devopscube.com/what-is-docker/ (namespaces)
+* https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together
+* https://snyk.io/blog/10-docker-image-security-best-practices/

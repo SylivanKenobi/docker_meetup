@@ -34,10 +34,31 @@ Docker CLI kennenlernen
 ## Übung 2
 
 Dockerfile für Ruby Script schreiben.
+
 [Dockerfile Dokumentation](https://docs.docker.com/engine/reference/builder/)
 
 
+## Übung 3
 
+Docker-Compose für entweder Cryptopus mit MySql oder Pfeedbacktool.
+
+[Docker-Compose Dokumentation](https://docs.docker.com/compose/compose-file/)
+
+Env-Variablen für Cryptopus:
+
+* RAILS_DB_USERNAME=root
+* RAILS_DB_PASSWORD=change-me
+* SECRET_KEY_BASE=change-me
+* MYSQL_ROOT_PASSWORD=change-me-too
+* RAILS_DB_ADAPTER: 'mysql2'
+* RAILS_DB_HOST: 'cryptopus-mysql'
+* RAILS_DB_NAME: 'cryptopus_prod'
+* RAILS_DB_PORT: 3306
+
+Infos:
+ 
+* Datenbank: MySql
+* Image puzzle/cryptopus:stable
 
 #### Quellen
 
@@ -47,3 +68,4 @@ Dockerfile für Ruby Script schreiben.
 * https://devopscube.com/what-is-docker/ (namespaces)
 * https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together
 * https://snyk.io/blog/10-docker-image-security-best-practices/
+* https://www.youtube.com/watch?v=EnJ7qX9fkcU

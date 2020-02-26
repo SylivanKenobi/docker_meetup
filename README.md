@@ -71,6 +71,7 @@ Infos:
 * https://docs.docker.com
 * https://wikipedia.org
 * https://www.youtube.com/watch?v=EnJ7qX9fkcU
+* https://www.opencontainers.org/
 * https://jonnylangefeld.github.io/learning/Docker/How%2Bto%2BDocker.html
 * https://devopscube.com/what-is-docker
 * https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together
